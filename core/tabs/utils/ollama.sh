@@ -36,8 +36,8 @@ display_models() {
     clear
     printf "%b\n" "${RED}Available Models${RC}"
     printf "%b\n" "1. Llama 3.1 - 8B (4.7GB)"
-    printf "%b\n" "2. Llama 3.1 - 70B (40GB)"
-    printf "%b\n" "3. Llama 3.1 - 405B (231GB)"
+    printf "%b\n" "2. Llama 3.3 - 70B (43GB)"
+    printf "%b\n" "3. Llama 4 - 128x17b (245GB)"
     printf "%b\n" "4. Phi 3 Mini - 3.8B (2.3GB)"
     printf "%b\n" "5. Phi 3 Medium - 14B (7.9GB)"
     printf "%b\n" "6. Gemma 2 - 2B (1.6GB)"
@@ -58,8 +58,8 @@ select_model() {
     choice="$1"
     case $choice in
         1) printf "%b\n" "llama3.1";;
-        2) printf "%b\n" "llama3.1:70b";;
-        3) printf "%b\n" "llama3.1:405b";;
+        2) printf "%b\n" "llama3.3:70b";;
+        3) printf "%b\n" "llama4:128x17b";;
         4) printf "%b\n" "phi3";;
         5) printf "%b\n" "phi3:medium";;
         6) printf "%b\n" "gemma2:2b";;
