@@ -38,8 +38,8 @@ display_models() {
     printf "%b\n" "1. Llama 3.1 - 8B (4.7GB)"
     printf "%b\n" "2. Llama 3.3 - 70B (43GB)"
     printf "%b\n" "3. Llama 4 - 128x17b (245GB)"
-    printf "%b\n" "4. Phi 3 Mini - 3.8B (2.3GB)"
-    printf "%b\n" "5. Phi 3 Medium - 14B (7.9GB)"
+    printf "%b\n" "4. Phi 4 Mini - 3.8B (2.5GB)"
+    printf "%b\n" "5. Phi 4 - 14B (9.1GB)"
     printf "%b\n" "6. Gemma 4 - E2B (7.5GB)"
     printf "%b\n" "7. Gemma 4 - E4B (9.5GB)"
     printf "%b\n" "8. Gemma 4 - 26B (16GB)"
@@ -60,8 +60,8 @@ select_model() {
         1) printf "%b\n" "llama3.1";;
         2) printf "%b\n" "llama3.3:70b";;
         3) printf "%b\n" "llama4:128x17b";;
-        4) printf "%b\n" "phi3";;
-        5) printf "%b\n" "phi3:medium";;
+        4) printf "%b\n" "phi4-mini:3.8b";;
+        5) printf "%b\n" "phi4:14b";;
         6) printf "%b\n" "gemma4:e2b";;
         7) printf "%b\n" "gemma4:e4b";;
         8) printf "%b\n" "gemma4:26b ";;
