@@ -62,9 +62,9 @@ select_model() {
         3) printf "%b\n" "llama4:128x17b";;
         4) printf "%b\n" "phi3";;
         5) printf "%b\n" "phi3:medium";;
-        6) printf "%b\n" "gemma2:2b";;
-        7) printf "%b\n" "gemma2";;
-        8) printf "%b\n" "gemma2:27b";;
+        6) printf "%b\n" "gemma4:e2b";;
+        7) printf "%b\n" "gemma4:e4b";;
+        8) printf "%b\n" "gemma4:26b ";;
         9) printf "%b\n" "mistral";;
         10) printf "%b\n" "moondream";;
         11) printf "%b\n" "neural-chat";;
